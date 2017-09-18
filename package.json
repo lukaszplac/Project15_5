@@ -1,0 +1,19 @@
+{
+  "name": "Project15_5",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "start": "babel script.js --out-file script-compiled.js & http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "http-server": "^0.10.0"
+  },
+  "description": ""
+}
